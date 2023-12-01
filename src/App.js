@@ -17,7 +17,11 @@ function HelloWorldArticle() {
         src="https://s3.amazonaws.com/colorslive/jpg_512x512/312008-8lOV-hXS7HdRYlhV.jpg"
         alt="Image"
       />
-      {/* <pre>```javascript console.log(&quot;Hello, World!&quot;); ```</pre> */}
+      {
+        {
+          /* <pre>```javascript console.log(&quot;Hello, World!&quot;); ```</pre> */
+        }
+      }
     </article>
   );
 }
